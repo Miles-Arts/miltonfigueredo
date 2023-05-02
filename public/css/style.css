@@ -18,6 +18,7 @@ body {
 }
 
 .texto__titulo {
+    text-align: center;
     font-weight: bold;
     font-size: 22px;
 }
@@ -60,10 +61,23 @@ body {
 }
 
 .cuerpo {
+    margin-top: 500px;
     height: 960px;
+    width: 960px;
     
 }
 
+.imagen__inicio {
+    display: flex;
+    align-items: center;
+    height:  380px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 4%;
+
+}
 
 .imagenes__container {
     background: hsl(0, 0%, 0%);
@@ -83,11 +97,11 @@ body {
     display: flex;
     align-items: center;
     height:  180px;
-    margin-right: 40%;
-    margin-left: 40%;
+    margin-right: auto;
+    margin-left: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    border-radius: 10%;
+    border-radius: 4%;
 }
 
 .artista__colombiano {
@@ -99,10 +113,26 @@ body {
 }
 
 .pie__de__pagina {
-    background: #000000;
+    /*background: #000000;*/
     height: 30px;
     text-align: center;
     padding: 20px;
+}
+
+.logo__redes_sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo__redes {
+    height:  40px;
+    width: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
 }
 
 @media screen and (max-width: 768px) {
